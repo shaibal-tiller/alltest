@@ -1,0 +1,43 @@
+/* styles.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: yellow;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  height: 100%;
+  width: 1rem;
+  background-color: red;
+  position: absolute;
+  
+}
+
+.circle {
+  width: 2rem;
+  height: 2rem;
+  background-color: yellow;
+  border: 5px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  cursor: pointer;
+/*   transition: transform 0.3s ease;  *//* Add a smooth transition effect */
+}
+
+/* Add hover effect */
+/* .circle:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+} */

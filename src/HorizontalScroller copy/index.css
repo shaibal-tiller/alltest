@@ -1,0 +1,6 @@
+.section-container::-webkit-scrollbar {
+    display: none;
+  }
+  .section-container{
+    scroll-behavior: smooth;
+  }
